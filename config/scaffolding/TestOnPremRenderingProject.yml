@@ -8,12 +8,27 @@ packages:
   gitUsername: PoojaAnandGit
   gitBranch: main
 - name: AllControlsPackageTest
+  version: "1.0"
   gitServerName: test
   gitUrl: https://github.com/moaaSoftwareAG
   gitUsername: PoojaAnandGit
   gitBranch: main
 - name: testOnPremPkg
+  version: 10.15.0.0.674
   gitServerName: test
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
   gitBranch: main
+services:
+- serviceName: project.testonpremrendering.integrations:e1
+  packages:
+  - name: TestOnPremRenderingProject
+    version: "1.0"
+  - name: testOnPremPkg
+    version: 10.15.0.0.674
+  - name: AllControlsPackageTest
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2020
