@@ -12,3 +12,8 @@ packages:
   gitUrl: https://github.com/moaaSoftwareAG
   gitUsername: PoojaAnandGit
   gitBranch: main
+- name: testOnPremPkg
+  gitServerName: test
+  gitUrl: https://github.com/PoojaAnandGit
+  gitUsername: PoojaAnandGit
+  gitBranch: main
