@@ -10,17 +10,18 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="AllControlsPackageTest">1.0</value>
     <value name="testOnPremPkg">10.15.0.0.674</value>
+    <value name="onPremFlowsTest">10.15.0.0.674</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">8</value>
+  <value name="build">9</value>
   <null name="description"/>
   <value name="created_date">18-12-2024 06:36:28 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-12-18T09:19:57.0488642Z</value>
+  <value name="lastUpdated">2024-12-18T09:36:11.6209887Z</value>
   <value name="wmProjectId">fla73a16d875b40eb898ed91</value>
   <value name="creator">Pooja Anand</value>
 </Values>
